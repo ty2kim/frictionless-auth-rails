@@ -1,0 +1,32 @@
+{
+  "name": "frictionless-signup-with-segment-clearbit-frontend",
+  "version": "0.1.1",
+  "description": "Increase conversion rates by 20%+ across your signup forms with Frictionless Signup Forms & Enrichment",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test/*",
+    "build": "node node_modules/browserify/bin/cmd.js index.js -o frictionless_signup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segmentio/frictionless-signup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segmentio/frictionless-signup/issues"
+  },
+  "homepage": "https://segment.com/frictionless-signup",
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "browserify": "^13.1.1",
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {}
+}
